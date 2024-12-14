@@ -214,14 +214,16 @@
     <a href="#" class="btn btn-lg btn-lg-square back-to-top"><i class="fa-regular fa-circle-up"></i></a>
 
     <script>
-      function share() {
+function share() {
+	 
+	 const text = "https://techhades1.github.io/TECHHADES/";
+	
 
-const text = "www.w3schools.com";
+	 navigator.clipboard.writeText(text);
+	
 
-navigator.clipboard.writeText(text);
-
-alert("Copied the text: " + text);
-}
+	 alert("Copied the link: " + text);
+	}
 function myFunction() {
     var email = document.getElementById("email").value;
     var regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
