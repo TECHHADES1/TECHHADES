@@ -81,6 +81,7 @@ nav ul li a:hover{
 #drop:hover{
   color: #a717d1;
   transition: .3s;
+  cursor: pointer;
 }
 
 #drop:visited{
